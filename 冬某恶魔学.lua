@@ -2,9 +2,9 @@ local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/rel
 local Confirmed = false
 
 WindUI:Popup({
-    Title = "shenmiV2脚本",
+    Title = "DMV2脚本",
     IconThemed = true,
-    Content = "欢迎尊贵的用户" .. game.Players.LocalPlayer.Name .. "使用shemi脚本 当前版本型号:V2",
+    Content = "欢迎尊贵的用户" .. game.Players.LocalPlayer.Name .. "使用DM脚本 当前版本型号:V2",
     Buttons = {
         {
             Title = "取消",
@@ -24,15 +24,15 @@ WindUI:Popup({
 })
 function createUI()
     local Window = WindUI:CreateWindow({
-        Title = "shenmiV2脚本",
+        Title = "DMV2脚本",
         Icon = "palette",
-    Author = "尊贵的"..game.Players.localPlayer.Name.."欢迎使用shenmiV2脚本", 
+    Author = "尊贵的"..game.Players.localPlayer.Name.."欢迎使用DMV2脚本", 
         Folder = "Premium",
         Size = UDim2.fromOffset(550, 320),
-        Theme = "Light",
+        Theme = "Dark",
         User = {
             Enabled = true,
-            大司马 = true,
+            屑冬某 = true,
             Callback = function()
             end
         },
@@ -46,7 +46,7 @@ function createUI()
     })
 
     Window:EditOpenButton({
-        Title = "大司马脚本 V2",
+        Title = "DM脚本 V2",
         Icon = "crown",
         CornerRadius = UDim.new(0, 8),
         StrokeThickness = 3,
